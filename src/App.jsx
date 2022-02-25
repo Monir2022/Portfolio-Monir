@@ -7,7 +7,7 @@ import About from "./Components/About";
 import Project from "./Components/Project";
 import Technologies from "./Components/Technologies";
 import Contact from "./Components/Contact";
-import Form from "./Components/Form";
+import Modal from "./Components/Modal";
 export default function App() {
   return (
     <div className="App">
@@ -17,7 +17,7 @@ export default function App() {
       <Project />
       <Technologies />
       <Contact />
-      <Form />
+      <Modal />
     </div>
   );
 }
