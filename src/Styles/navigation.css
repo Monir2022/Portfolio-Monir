@@ -1,3 +1,35 @@
-.navigation ul li {
+nav {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100vw;
+    height:50px;
+    display: flex;
+    z-index: 100;
+    top: 0;
+    overflow: hidden;
+}
+.navigation ul {    
+    list-style: none;
+    padding: 0;
+    width: 100vw;
+    height: 15px;
+    text-align: center;
+    margin: 0;
+    justify-content: center;    
+}
+
+.navigation li {
     display: inline-block;
+    padding: 12px;
+    
+}
+.navigation a {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: var(--space-big);
+    margin-left: var(--space-big);
+    scroll-behavior: smooth;
 }
