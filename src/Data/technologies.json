@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "React",
+    "logo": " "
+  },
+  {
+    "id": 2,
+    "title": "Javascript",
+    "logo": " "
+  },
+  {
+    "id": 3,
+    "title": "Git-hub",
+    "logo": " "
+  },
+  {
+    "id": 4,
+    "title": "Figma",
+    "logo": " "
+  },
+  {
+    "id": 5,
+    "title": "Whimsical",
+    "logo": " "
+  },
+  {
+    "id": 6,
+    "title": "HTML",
+    "logo": " "
+  },
+  {
+    "id": 7,
+    "title": "CSS",
+    "logo": " "
+  },
+  {
+    "id": 8,
+    "title": "Grid",
+    "logo": " "
+  }
+]
