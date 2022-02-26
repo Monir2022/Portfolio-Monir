@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "catagory": "contact",
+    "href": " ",
+    "icon": "email.png",
+    "text": "akhandbuet@gmail.com"
+  },
+  {
+    "id": 1,
+    "catagory": "contact",
+    "href": " ",
+    "icon": "mobile.png",
+    "text": "+46763393551"
+  },
+  {
+    "id": 3,
+    "catagory": "contact",
+    "href": " ",
+    "icon": "location.png",
+    "text": "Linköping, Sweden"
+  },
+  {
+    "id": 4,
+    "catagory": "footer",
+    "href": " ",
+    "icon": "linkedin.png",
+    "text": " "
+  },
+  {
+    "id": 5,
+    "catagory": "footer",
+    "href": " ",
+    "icon": "github.png",
+    "text": " "
+  }
+]

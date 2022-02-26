@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Vegan restaurant website",
+    "description": "This project is about a vegan restaurant where users can see the menu and nutritional facts of each menu item, they can also see contact information to plan their visit. It uses:",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 2,
+    "title": "Package tracker",
+    "description": "This is a web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 3,
+    "title": "Todo list - Unit Testing",
+    "description": "This is a todo list app which allows you to stay organized. You can add items, sort them by name, mark them done and store the list on your web browser. It uses:",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 4,
+    "title": "E-commerce site",
+    "description": "This project is about e-commerce where users can do D, E, F, so they can obtain G, H, I benefit.",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 5,
+    "title": "BBQ restaurant website",
+    "description": "This project is about a BBQ restaurant.",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 6,
+    "title": "Learning Platform",
+    "description": "This project is about a learning platform.",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  },
+  {
+    "id": 7,
+    "title": "Netflix clone",
+    "description": "This project is about Netflix clone",
+    "techonologies": ["Javascript", "React", "HTML", "CSS"],
+    "isCompleted": false,
+    "screenshot": " ",
+    "github": "http://www.github.com",
+    "website": "http://www.google.com"
+  }
+]
