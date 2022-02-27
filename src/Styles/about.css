@@ -1,0 +1,38 @@
+.about {
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+
+}
+
+img {
+    height: 240px;
+    width: 280px;
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 600px){
+    .about {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .about p {
+        width: 30%;
+        margin-left: 20px;
+    }
+    .about h2 {
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 44px;
+  }
+  .about {
+    height: 450px;
+  }
+
+    }
+
+

@@ -1,9 +1,24 @@
-import React from 'react';
+import DataTechnologies from "../Data/technologyList"
 
-export default function Technologies(props) {
+
+
+import Tech from "./Tech";
+export default function Technologies() {
+    const TechnologiesList = DataTechnologies.map((item)=> (
+        <Tech key = {item.id} title = {item.title} image = {item.logo} id = {item.id}/>
+    ))
     return (
-        <div>
-            <h1>I am a Technologies</h1>
+        <div className="technologies">
+            <h2>Technologies</h2>
+            <div>
+                <div>
+                <p>Here are the tecnologies I already now and I going to learn in near future</p>
+                </div>
+                <div>
+                    {TechnologiesList}
+                </div>
+            </div>
+                       
         </div>
     );
 }

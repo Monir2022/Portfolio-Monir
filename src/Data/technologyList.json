@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "React",
+    "logo": "react.png"
+  },
+  {
+    "id": 2,
+    "title": "Javascript",
+    "logo": "js.png"
+  },
+  {
+    "id": 3,
+    "title": "SASS",
+    "logo": "sass.png"
+  },
+  {
+    "id": 4,
+    "title": "Figma",
+    "logo": "figma.png"
+  },
+  {
+    "id": 5,
+    "title": "Git",
+    "logo": "git.png"
+  },
+  {
+    "id": 6,
+    "title": "HTML",
+    "logo": "html.png"
+  },
+  {
+    "id": 7,
+    "title": "CSS",
+    "logo": "css.png "
+  },
+  {
+    "id": 8,
+    "title": "Typescript",
+    "logo": "typescript.png"
+  },
+  {
+    "id": 9,
+    "title": "Java",
+    "logo": "java-logo"
+  },
+  {
+    "id": 10,
+    "title": "recoil",
+    "logo": "recoil.png"
+  }
+]

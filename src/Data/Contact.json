@@ -2,36 +2,30 @@
   {
     "id": 1,
     "catagory": "contact",
-    "href": " ",
+    "href": "https://mail.google.com/mail/",
     "icon": "email.png",
     "text": "akhandbuet@gmail.com"
   },
   {
-    "id": 1,
+    "id": 2,
     "catagory": "contact",
-    "href": " ",
+    "href": "mobile:0763393551",
     "icon": "mobile.png",
     "text": "+46763393551"
   },
+  
   {
     "id": 3,
-    "catagory": "contact",
-    "href": " ",
-    "icon": "location.png",
-    "text": "Linköping, Sweden"
-  },
-  {
-    "id": 4,
     "catagory": "footer",
-    "href": " ",
+    "href": "https://www.linkedin.com/in/md-moniruzzaman-akhand-7017024b/ ",
     "icon": "linkedin.png",
     "text": " "
   },
   {
-    "id": 5,
+    "id": 4,
     "catagory": "footer",
-    "href": " ",
-    "icon": "github.png",
+    "href": "https://github.com/Monir2022",
+    "icon": "git-hub.png",
     "text": " "
   }
 ]
