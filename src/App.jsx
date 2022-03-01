@@ -4,7 +4,7 @@
 import Navigation from "./Components/Navigation";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
-import Project from "./Components/Project";
+import Portfolio from "./Components/Portfolio";
 
 import Contact from "./Components/Contact";
 import Modal from "./Components/Modal";
@@ -15,7 +15,7 @@ export default function App() {
       <Navigation />
       <Hero />
       <About />
-      <Project />
+      <Portfolio />
       
       <Contact />
       <Modal />

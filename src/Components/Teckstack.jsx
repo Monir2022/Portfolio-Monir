@@ -3,7 +3,7 @@ import DataTechnologies from "../Data/technologyList"
 
 
 import Tech from "./Tech";
-export default function Technologies() {
+export default function Techsttack() {
     const TechnologiesList = DataTechnologies.map((item)=> (
         <Tech key = {item.id} title = {item.title} image = {item.logo} id = {item.id}/>
     ))
