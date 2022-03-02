@@ -1,9 +1,7 @@
 ////Project files
 import "../Styles/card.css";
 import Modal from "./Modal";
-
 //NPM Packages
-
 import { useState } from "react";
 
 export default function Card({ firstImg, pname, discription, repo, demo }) {
