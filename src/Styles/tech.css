@@ -1,0 +1,24 @@
+.tech{
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+.tech-container{
+    display: flex;
+}
+
+.tech-title{
+    border-bottom: 5px solid rgb(19, 1, 1);
+    padding: 2px;
+}
+
+.tech-list{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+}

@@ -1,28 +1,27 @@
-import ReactDom from "react-dom";
+//Project files
 import "../Styles/modal.css";
 
+//NPM Packages
+import ReactDom from "react-dom";
 
-const Modal = ({ show, close, title, children }) => {
+export default function Modalb({ show, close, title, children }) {
   return ReactDom.createPortal(
     <>
       <div
         className={`modalContainer ${show ? "show" : ""} `}
         onClick={() => close()}
       >
-        <div className="modal" onClick={(e) => e.stopPropagation()}>
+        <div className="modal" onClick={(event) => event.stopPropagation()}>
           <header className="modal_header">
             <h2 className="modal_header-title">{title}</h2>
             <button className="close" onClick={() => close()}>
-             X {/* <img src={Close} alt="close" /> */}
+              X {/* <img src={Close} alt="close" /> */}
             </button>
           </header>
           <main className="modal_content">{children}</main>
         </div>
       </div>
-      
     </>,
     document.getElementById("modal")
   );
-};
-
-export default Modal;
+}

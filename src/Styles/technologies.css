@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tech-img {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: contain;
+}

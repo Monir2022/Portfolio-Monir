@@ -10,6 +10,8 @@ import Contact from "./Components/Contact";
 import Project from "./Components/Project";
 import Modal from "./Components/Modal";
 
+import Tech from "./Components/Tech";
+
 
 export default function App() {
   return (
@@ -19,6 +21,7 @@ export default function App() {
       <About />
       <Project/>
       <Modal/>
+      <Tech/>
       
      
       
