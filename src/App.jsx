@@ -1,7 +1,6 @@
 // Project files
 import About from "./Components/About";
 import Footer from "./Components/Footer";
-
 import Hero from "./Components/Hero";
 import Navigation from "./Components/Navigation";
 import Portfolio from "./Components/Portfolio";
@@ -15,8 +14,7 @@ export default function App() {
       <About />
       <Portfolio />
       <Tech />
-      <Footer/>
-      
+      <Footer />
     </div>
   );
 }
