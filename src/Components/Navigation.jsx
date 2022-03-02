@@ -7,7 +7,7 @@ export default function Navigation() {
     <nav className="navigation">
       <div className="logo">
         <a href="#hero">
-          <img src={monirlogo} alt={" "} />
+          <img src={monirlogo} alt={"My logo "} />
         </a>
       </div>
       <ul>

@@ -1,10 +1,10 @@
-////Project files
+//Project files
 import AboutPhoto from "../Assets/Images/about-picture.png";
 import "../Styles/about.css";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h2>About me</h2>
       <div className="about-content">
         <div className="about-left">

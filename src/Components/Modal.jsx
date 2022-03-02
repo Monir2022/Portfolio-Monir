@@ -4,7 +4,7 @@ import "../Styles/modal.css";
 //NPM Packages
 import ReactDom from "react-dom";
 
-export default function Modalb({ show, close, title, children }) {
+export default function Modal({ show, close, title, children }) {
   return ReactDom.createPortal(
     <>
       <div
@@ -15,7 +15,7 @@ export default function Modalb({ show, close, title, children }) {
           <header className="modal_header">
             <h2 className="modal_header-title">{title}</h2>
             <button className="close" onClick={() => close()}>
-              X {/* <img src={Close} alt="close" /> */}
+              X
             </button>
           </header>
           <main className="modal_content">{children}</main>

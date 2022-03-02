@@ -1,14 +1,9 @@
-
-export default function FooterItem(href, icon) {
-    const iconObject = require(`../Assets/Contact-icons/${icon}`);
-    const iconURL = iconObject.default;
-
+import "../Styles/footeritem.css";
+export default function FooterItem(href) {
 
   return (
     <div>
-        <li>
-            <a target = "_blank" rel='noopener noreferrer' href={href}> <img src= {iconURL} alt= {" "}/> </a>
-        </li>
+            <a className="footercontact" target = "_blank" rel=' noreferrer' href={href.href}> <i id="icon" className={href.icon} ></i> {href.text}</a>
     </div>
   )
 }

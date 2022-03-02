@@ -3,14 +3,14 @@
     "id": 1,
     "catagory": "contact",
     "href": "https://mail.google.com/mail/",
-    "icon": "email.png",
+    "icon": "fa-solid fa-at fa-2xl",
     "text": "akhandbuet@gmail.com"
   },
   {
     "id": 2,
     "catagory": "contact",
     "href": "mobile:0763393551",
-    "icon": "mobile.png",
+    "icon": "fa-solid fa-phone fa-2xl",
     "text": "+46763393551"
   },
   
@@ -18,14 +18,14 @@
     "id": 3,
     "catagory": "footer",
     "href": "https://www.linkedin.com/in/md-moniruzzaman-akhand-7017024b/ ",
-    "icon": "linkedin.png",
+    "icon": "fa-brands fa-linkedin fa-2xl",
     "text": " "
   },
   {
     "id": 4,
     "catagory": "footer",
     "href": "https://github.com/Monir2022",
-    "icon": "git-hub.png",
+    "icon": "fa-brands fa-github fa-2xl",
     "text": " "
   }
 ]

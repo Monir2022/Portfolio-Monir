@@ -1,21 +1,21 @@
 //Project files
-import "../Styles/tech.css";
 import Techstack from "./Techstack";
 import techData from "../Data/technologyList.json";
+import "../Styles/tech.css";
 
 export default function Tech() {
-  const dynamicdata = techData.map((dt) => (
-    <Techstack techName={dt.title} techimage={dt.logo} />
+  const technologyData = techData.map((item) => (
+    <Techstack key={item.id} techName={item.title} techIcon={item.logo} />
   ));
 
   return (
-    <div className="tech">
-      <h2 className="tech-title">Technologies I use and fimilliar</h2>
+    <div className="tech" id="tech stack">
+      <h2 className="tech-title">Technologies</h2>
       <div className="tech-container">
         <p>
           Here is the techology that I already know and also starting to learn.
         </p>
-        <div className="tech-list">{dynamicdata}</div>
+        <div className="tech-list">{technologyData}</div>
       </div>
     </div>
   );

@@ -1,17 +1,11 @@
-//NPM Packages
-
 // Project files
-import Navigation from "./Components/Navigation";
-import Hero from "./Components/Hero";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
 
-
-import Contact from "./Components/Contact";
-import Project from "./Components/Project";
-import Modal from "./Components/Modal";
-
+import Hero from "./Components/Hero";
+import Navigation from "./Components/Navigation";
+import Portfolio from "./Components/Portfolio";
 import Tech from "./Components/Tech";
-
 
 export default function App() {
   return (
@@ -19,14 +13,9 @@ export default function App() {
       <Navigation />
       <Hero />
       <About />
-      <Project/>
-      <Modal/>
-      <Tech/>
-      
-     
-      
-      <Contact />
-     
+      <Portfolio />
+      <Tech />
+      <Footer/>
       
     </div>
   );
