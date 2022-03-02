@@ -15,14 +15,14 @@ export default function Navigation() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>          
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
           <a href="#tech stack">Tech stack</a>
         </li>
 
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
       </ul>
     </nav>
