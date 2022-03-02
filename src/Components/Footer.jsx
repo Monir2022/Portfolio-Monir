@@ -18,7 +18,8 @@ export default function Footer() {
   const FooterContact = DataContact.filter(
     (item) => item.catagory === "footer"
   ).map((item) => (
-    <a key={item.id}
+    <a
+      key={item.id}
       className="footerlink"
       target="_blank"
       rel=" noreferrer"

@@ -10,14 +10,12 @@ export default function Portfolio() {
       tech={item.techonologies}
       firstImg={item.screenshot}
       repo={item.github}
-      demo= {item.website}
+      demo={item.website}
       projectName={item.title}
       discription={item.description}
     />
   ));
   return (
-  
-      
     <div className="project" id="portfolio">
       <h2 className="project-title">Portfolio</h2>
       <div className="project-flex">
