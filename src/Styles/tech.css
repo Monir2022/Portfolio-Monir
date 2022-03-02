@@ -18,7 +18,24 @@
 }
 
 .tech-list{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+@media screen and (max-width: 600px){
+    .tech-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .tech-list{
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0em;
+    }
 }

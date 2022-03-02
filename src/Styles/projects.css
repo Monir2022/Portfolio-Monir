@@ -12,15 +12,21 @@
     
 }
 .project-list{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+        flex-grow:2;
+        flex-shrink:1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
 }
 
 .project-title{
     border-bottom: 5px solid rgb(19, 1, 1);
 
     padding: 2px;
+}
+.project-text{
+    flex-grow:3;
+    flex-shrink:2;
 }
 
 @media screen and (max-width: 600px){
@@ -31,4 +37,9 @@
         justify-items: center;
         align-items: center;
     }
+
+    .project-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
 }

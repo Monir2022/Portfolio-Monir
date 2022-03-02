@@ -1,3 +1,4 @@
+//Project files
 import DataContact from "../Data/Contact.json";
 import FooterItem from "./FooterItem";
 import "../Styles/footer.css";
@@ -30,7 +31,7 @@ export default function Footer() {
 
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="footer">
         <h2 className="footer-title">Contact me</h2>
         <div className="footer-container">
           <p>
