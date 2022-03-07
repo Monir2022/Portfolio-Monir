@@ -4,6 +4,7 @@ import techData from "../Data/technologyList.json";
 import "../Styles/tech.css";
 
 export default function Tech() {
+  // Same problem as card, is only that you only have title and logo, but if we add more requirements you would break the 3 arg rule. -1
   const technologyData = techData.map((item) => (
     <Techstack key={item.id} techName={item.title} techIcon={item.logo} />
   ));

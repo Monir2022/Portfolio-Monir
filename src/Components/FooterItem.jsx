@@ -9,7 +9,7 @@ export default function FooterItem(href) {
         rel=" noreferrer"
         href={href.href}
       >
-        {" "}
+        {/* I mention about those empty spaces before -1 */}{" "}
         <i id="icon" className={href.icon}></i> {href.text}
       </a>
     </div>

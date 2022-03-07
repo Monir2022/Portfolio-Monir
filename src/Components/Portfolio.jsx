@@ -4,6 +4,7 @@ import ProjectData from "../Data/Projects.json";
 import "../Styles/projects.css";
 
 export default function Portfolio() {
+  // Function argmument lenght, you are passing too many props to Card. You should pass the whole item instead -1
   const ProjectList = ProjectData.map((item) => (
     <Card
       key={item.id}

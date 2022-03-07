@@ -20,7 +20,6 @@ export default function Navigation() {
         <li>
           <a href="#tech stack">Tech stack</a>
         </li>
-
         <li>
           <a href="#footer">Contact</a>
         </li>

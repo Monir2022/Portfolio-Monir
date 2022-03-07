@@ -6,6 +6,8 @@ import Modal from "./Modal";
 
 import { useState } from "react";
 
+// Component length -1
+// You are passing 5 arguments to the card -1
 export default function Card({
   firstImg,
   projectName,
@@ -18,6 +20,8 @@ export default function Card({
 
   const Toggle = () => setModal(!modal);
   const techlist = tech.map((item) => <li key={item}>{item}</li>);
+
+  // This component is ultra hard to read for another devloper. There is a lot of nesting and a lot of scrolling neccesary to read it. You should have refactor it
   return (
     <div className="container">
       <img src={firstImg} alt="Avatar" className="image" />

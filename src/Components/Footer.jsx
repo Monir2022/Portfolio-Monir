@@ -4,6 +4,26 @@ import FooterItem from "./FooterItem";
 import "../Styles/footer.css";
 
 export default function Footer() {
+  // Simplification -1
+  // You could have created 2 jsons to avoid the filter entirely or if you wanted to keep them as 1 file you could do something like:
+  /**
+   * {
+   *  contact: [
+   *  {
+   *    id: 0,
+   *    hreft: "https://mail.google.com/mail/",
+   *    text: "akhandbuet@gmail.com"
+   *  }
+   * ],
+   * social: [
+   *  {
+   *    id: 0,
+   *    href: "https://github.com/Monir2022"
+   *  }
+   * ]
+   * }
+   */
+
   const FooterItems = DataContact.filter(
     (item) => item.catagory === "contact"
   ).map((item) => (
@@ -25,7 +45,6 @@ export default function Footer() {
       rel=" noreferrer"
       href={item.href}
     >
-      {" "}
       <i id="icon" className={item.icon}></i>
     </a>
   ));

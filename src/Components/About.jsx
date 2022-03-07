@@ -2,6 +2,7 @@
 import AboutPhoto from "../Assets/Images/about-picture.png";
 import "../Styles/about.css";
 
+// good
 export default function About() {
   return (
     <div className="about" id="about">

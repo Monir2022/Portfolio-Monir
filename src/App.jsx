@@ -6,6 +6,10 @@ import Navigation from "./Components/Navigation";
 import Portfolio from "./Components/Portfolio";
 import Tech from "./Components/Tech";
 
+// Perfect, this App does look ULTRA clean. Congrats +1
+
+// Note, folders should be lowercase, example: assets instead of Assets.
+
 export default function App() {
   return (
     <div className="App">
