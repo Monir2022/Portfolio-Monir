@@ -1,5 +1,5 @@
 //Project files
-import "../styles/technologies.css";
+
 
 export default function Techstack({ techName, techIcon }) {
   return (

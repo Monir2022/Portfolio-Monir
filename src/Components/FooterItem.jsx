@@ -1,5 +1,5 @@
 //Project files
-import "../styles/footeritem.css";
+
 export default function FooterItem(href) {
   return (
     <div>

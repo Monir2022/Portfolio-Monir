@@ -1,5 +1,5 @@
 //Project files
-import "../styles/card.css";
+
 import Modal from "./Modal";
 
 //NPM packages
@@ -7,8 +7,8 @@ import Modal from "./Modal";
 import { useState } from "react";
 
 export default function Card({ item }) {
-  const {screenshot, projectName, discription, github, website, techonologies} = item;
-  
+  const { photo, projectName, description, github, website, techonologies } =
+    item;
 
   console.log(github);
 
@@ -17,14 +17,13 @@ export default function Card({ item }) {
 
   const Toggle = () => setModal(!modal);
 
-  const techlist = techonologies.map((index, item) => (<li key={index}>{item}</li>));
-
-
-
+  const techlist = techonologies.map((item) => (
+    <li key={item.index}> {item} </li>
+  ));
 
   return (
     <div className="container">
-      <img src={screenshot} alt="Avatar" className="image" />
+      <img src={photo} alt="Avatar" className="image" />
       <div className="overlay">
         <div className="text">
           <p>{projectName}</p>
@@ -35,9 +34,9 @@ export default function Card({ item }) {
           )}
           <Modal show={modal} close={Toggle} title={projectName}>
             <div className="modal-child">
-              <img src={screenshot} alt="pict" className="modal-img" />
+              <img src={photo} alt="pict" className="modal-img" />
               <div className="discriptions">
-                <p>{discription}</p>
+                <p>{description}</p>
                 <ul>{techlist}</ul>
                 {website ? (
                   <a

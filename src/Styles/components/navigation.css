@@ -28,9 +28,7 @@ nav {
     letter-spacing: 2px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
-    margin-right: var(--space-big);
-    margin-left: var(--space-big);
+    color: white;    
     scroll-behavior: smooth;
 }
 .navigation img {

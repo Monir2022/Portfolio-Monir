@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import Navigation from "./Components/Navigation";
 import Portfolio from "./Components/Portfolio";
 import Tech from "./Components/Tech";
+import "./styles/style.css";
 
 export default function App() {
   return (

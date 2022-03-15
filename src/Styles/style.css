@@ -1,0 +1,12 @@
+@import "./base/layout.css";
+@import "./base/typography.css";
+@import "./components/hero.css";
+@import "./components/about.css";
+@import "./components/card.css";
+@import "./components/footer.css";
+@import "./components/footeritem.css";
+@import "./components/modal.css";
+@import "./components/navigation.css";
+@import "./components/projects.css";
+@import "./components/tech.css";
+@import "./components/technologies";

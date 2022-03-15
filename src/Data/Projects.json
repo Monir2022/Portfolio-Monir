@@ -5,19 +5,19 @@
     "description": "This project is about EIKA shopping list",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": true,
-    "screenshot": "EIka.png",
+    "photo": "EIka.png",
     "github": "https://github.com/Monir2022/Ikea-Shopping-list.git",
     "website": "https://monir2022.github.io/Ikea-shopping-list/"
   },
   {
     "id": 2,
     "title": "Vegan restaurant website",
-    "description": "This project is about a vegan restaurant where users can see the menu and nutritional facts of each menu item, they can also see contact information to plan their visit. It uses:",
+    "description": "This project is about a vegan restaurant where users can see the menu and nutritional facts of each menu item, they can also see contact information to plan their visit.",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,
-    "screenshot": " Vegan-restaurant.png",
-    "github": "",
-    "website": ""
+    "photo": " Vegan-restaurant.png",
+    "github": "https://github.com/Monir2022/vegan-restaurant.git",
+    "website": "https://veganlinkoping.web.app/"
   },
   {
     "id": 3,
@@ -25,7 +25,7 @@
     "description": "This is a web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,
-    "screenshot": " Package-tracker.png",
+    "photo": " Package-tracker.png",
     "github": "",
     "website": ""
   },
@@ -35,7 +35,7 @@
     "description": "This is a todo list app which allows you to stay organized. You can add items, sort them by name, mark them done and store the list on your web browser. It uses:",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,
-    "screenshot": "todo-preview.png",
+    "photo": "todo-preview.png",
     "github": "",
     "website": ""
   },
@@ -45,7 +45,7 @@
     "description": "This project is about Netflix.",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,
-    "screenshot": "Netflix-clone.png ",
+    "photo": "Netflix-clone.png ",
     "github": "",
     "website": ""
   },
@@ -55,7 +55,7 @@
     "description": "This project is about a BBQ restaurant.",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,
-    "screenshot": ["bbq-preview.png "],
+    "photo": ["bbq-preview.png "],
     "github": "",
     "website": ""
   }

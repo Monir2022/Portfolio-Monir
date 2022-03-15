@@ -1,5 +1,6 @@
 .modalContainer {
     position: fixed;
+    margin:0;
     top: 0;
     bottom: 0;
     left: 0;
@@ -8,9 +9,9 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.35);
-    opacity: 0;
+    opacity: 0.5;
     visibility: hidden;
-    transition: all 0.2s ease;
+    
 }
 .modalContainer .modal {
     background-color: rgba(255, 255, 255, 0.35);
@@ -60,4 +61,7 @@
 }
 .modalContainer.show .modal {
     transform: translateY(0);
+}
+.discriptions {
+    margin-left: 1rem;
 }

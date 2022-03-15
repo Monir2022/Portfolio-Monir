@@ -1,7 +1,6 @@
 //Project files
 import Card from "./Card";
 import ProjectData from "../Data/Projects.json";
-import "../styles/projects.css";
 
 export default function Portfolio() {
   const ProjectList = ProjectData.map((item) => (

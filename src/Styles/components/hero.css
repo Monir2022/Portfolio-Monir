@@ -7,17 +7,12 @@
     justify-items: center;
     align-items: center;
     width: 100%;
-    background-image: radial-gradient(
-        rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1)
-    ),
-    url("../Assets/Images/hero-back.jpg");
-
+    background-image: url("Assets/Images/hero-back.jpg");
 }
 
 .hero-heading {
     text-align: center;
-    padding: 0;
-    margin: var(--space-medium);
+    padding: 0;    
     background-color: rgb(1, 1, 14);
     color: white;
     opacity: 0.7;

@@ -1,5 +1,4 @@
 //Project files
-import "../styles/modal.css";
 
 //NPM Packages
 import ReactDom from "react-dom";
