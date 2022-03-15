@@ -1,22 +1,19 @@
 //Project files
-
 import Modal from "./Modal";
-
 //NPM packages
-
 import { useState } from "react";
 
 export default function Card({ item }) {
   const { photo, projectName, description, github, website, techonologies } =
     item;
 
-  console.log(github);
-
   //local state
   const [modal, setModal] = useState(false);
-
-  const Toggle = () => setModal(!modal);
-
+  //method
+  function onToggleModal() {
+    setModal(!modal);
+  }
+  //Properties
   const techlist = techonologies.map((item) => (
     <li key={item.index}> {item} </li>
   ));
@@ -28,11 +25,11 @@ export default function Card({ item }) {
         <div className="text">
           <p>{projectName}</p>
           {github ? (
-            <button onClick={() => Toggle()}>More</button>
+            <button onClick={() => setModal()}>View details</button>
           ) : (
             <p>Comming Soon</p>
           )}
-          <Modal show={modal} close={Toggle} title={projectName}>
+          <Modal show={modal} close={onToggleModal} title={projectName}>
             <div className="modal-child">
               <img src={photo} alt="pict" className="modal-img" />
               <div className="discriptions">

@@ -8,6 +8,7 @@
   align-items: center;
   width: 100%;
   background-image: url("Assets/Images/hero-back.jpg");
+  overflow-x: hidden;
 }
 
 .hero-heading {
