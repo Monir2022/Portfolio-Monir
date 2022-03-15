@@ -1,5 +1,5 @@
 //Project files
-import "../Styles/hero.css";
+import "../styles/hero.css";
 
 export default function Hero() {
   return (

@@ -1,20 +1,13 @@
 //Project files
 import Card from "./Card";
 import ProjectData from "../Data/Projects.json";
-import "../Styles/projects.css";
+import "../styles/projects.css";
 
 export default function Portfolio() {
   const ProjectList = ProjectData.map((item) => (
-    <Card
-      key={item.id}
-      tech={item.techonologies}
-      firstImg={item.screenshot}
-      repo={item.github}
-      demo={item.website}
-      projectName={item.title}
-      discription={item.description}
-    />
+    <Card key={item.id} item={item} />
   ));
+
   return (
     <div className="project" id="portfolio">
       <h2 className="project-title">Portfolio</h2>

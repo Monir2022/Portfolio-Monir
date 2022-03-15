@@ -1,7 +1,7 @@
 //Project files
 import Techstack from "./Techstack";
 import techData from "../Data/technologyList.json";
-import "../Styles/tech.css";
+import "../styles/tech.css";
 
 export default function Tech() {
   const technologyData = techData.map((item) => (

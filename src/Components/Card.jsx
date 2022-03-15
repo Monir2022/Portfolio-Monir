@@ -1,44 +1,48 @@
 //Project files
-import "../Styles/card.css";
+import "../styles/card.css";
 import Modal from "./Modal";
 
 //NPM packages
 
 import { useState } from "react";
 
-export default function Card({
-  firstImg,
-  projectName,
-  discription,
-  repo,
-  demo,
-  tech,
-}) {
+export default function Card({ item }) {
+  const {screenshot, projectName, discription, github, website, techonologies} = item;
+  
+
+  console.log(github);
+
+  //local state
   const [modal, setModal] = useState(false);
 
   const Toggle = () => setModal(!modal);
-  const techlist = tech.map((item) => <li key={item}>{item}</li>);
+
+  const techlist = techonologies.map((index, item) => (<li key={index}>{item}</li>));
+
+
+
+
   return (
     <div className="container">
-      <img src={firstImg} alt="Avatar" className="image" />
+      <img src={screenshot} alt="Avatar" className="image" />
       <div className="overlay">
         <div className="text">
           <p>{projectName}</p>
-          {repo ? (
+          {github ? (
             <button onClick={() => Toggle()}>More</button>
           ) : (
             <p>Comming Soon</p>
           )}
           <Modal show={modal} close={Toggle} title={projectName}>
             <div className="modal-child">
-              <img src={firstImg} alt="pict" className="modal-img" />
+              <img src={screenshot} alt="pict" className="modal-img" />
               <div className="discriptions">
                 <p>{discription}</p>
                 <ul>{techlist}</ul>
-                {demo ? (
+                {website ? (
                   <a
                     className="demo_src"
-                    href={demo}
+                    href={website}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -48,10 +52,10 @@ export default function Card({
                 ) : (
                   <p>Demo Not Available</p>
                 )}
-                {repo ? (
+                {github ? (
                   <a
                     className="demo_src"
-                    href={repo}
+                    href={github}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

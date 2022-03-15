@@ -1,7 +1,7 @@
 //Project files
 import DataContact from "../Data/Contact.json";
 import FooterItem from "./FooterItem";
-import "../Styles/footer.css";
+import "../styles/footer.css";
 
 export default function Footer() {
   const FooterItems = DataContact.filter(

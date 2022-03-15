@@ -1,6 +1,6 @@
 //Project files
 import AboutPhoto from "../Assets/Images/about-picture.png";
-import "../Styles/about.css";
+import "../styles/about.css";
 
 export default function About() {
   return (

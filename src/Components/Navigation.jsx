@@ -1,5 +1,5 @@
 //Project files
-import "../Styles/navigation.css";
+import "../styles/navigation.css";
 import monirlogo from "../Assets/Images/logo.png";
 
 export default function Navigation() {
