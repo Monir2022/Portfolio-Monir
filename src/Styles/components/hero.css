@@ -6,9 +6,9 @@
   min-width: 100vw;
   justify-items: center;
   align-items: center;
-  width: 100%;
+  width: 100%; 
   background-image: url("Assets/Images/hero-back.jpg");
-  overflow-x: hidden;
+  
 }
 
 .hero-heading {
