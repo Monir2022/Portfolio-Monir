@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "title": "Todo list - Unit Testing",
+    "title": "Learning platform online",
     "description": "This is a todo list app which allows you to stay organized. You can add items, sort them by name, mark them done and store the list on your web browser. It uses:",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,

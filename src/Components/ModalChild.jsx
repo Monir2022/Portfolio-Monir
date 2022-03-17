@@ -1,18 +1,19 @@
 export default function ModalChild({ item }) {
-  const { photo, description, github, website, techonologies } = item;
+  const { photo, description, github, website, techonologies, isCompleted } = item;
 
   const techList = techonologies.map((item) => <li> {item} </li>);
 
   const Website = website && (
     <a className="demo_src" href={website}>
-      Visit website </a>   
+      Visit website
+    </a>
   );
 
   const Github = github && (
     <a className="demo_src" href={github}>
-      Git repository  </a>
+      Git repository
+    </a>
   );
- 
 
   return (
     <div className="modal-child">
@@ -23,7 +24,7 @@ export default function ModalChild({ item }) {
         <ul>{techList}</ul>
         {Website}
         {Github}
-        {!github && <p>Comming Soon</p>}
+        {!isCompleted && <p>Comming Soon</p>}
       </div>
     </div>
   );
