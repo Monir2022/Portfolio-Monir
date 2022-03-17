@@ -8,9 +8,9 @@
     margin-left: 12%;
 
 }
-.aboutTitle{
-        border-bottom: 5px solid rgb(19, 1, 1);
-        padding: 2px;
+.about-title{
+    border-bottom: 5px solid rgb(19, 1, 1);
+    padding: 2px;
 }
 
 .myimg {
@@ -30,8 +30,7 @@
     .about-content{
         display:flex;
         overflow: hidden;
-        flex-direction: column;    
-
+        flex-direction: column;  
         flex-wrap: wrap;
     }
     }

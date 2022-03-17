@@ -14,6 +14,10 @@ export default function Tech() {
       <div className="tech-container">
         <p>
           Here is the techology that I already know and also starting to learn.
+          Here is the techology that I already know and also starting to learn.
+          Here is the techology that I already know and also starting to learn.
+          Here is the techology that I already know and also starting to learn.
+          Here is the techology that I already know and also starting to learn.
         </p>
         <div className="tech-list">{technologyData}</div>
       </div>

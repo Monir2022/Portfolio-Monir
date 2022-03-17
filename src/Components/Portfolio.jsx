@@ -3,6 +3,8 @@ import Card from "./Card";
 import ProjectData from "../Data/Projects.json";
 
 export default function Portfolio() {
+
+  //Components
   const ProjectList = ProjectData.map((item) => (
     <Card key={item.id} item={item} />
   ));

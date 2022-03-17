@@ -1,33 +1,23 @@
 //Project files
 import DataContact from "../Data/Contact.json";
-import FooterItem from "./FooterItem";
-
+import FooterContact from "./FooterContact";
+import FooterSocial from "./FooterSocial";
 
 export default function Footer() {
-  const FooterItems = DataContact.filter(
-    (item) => item.catagory === "contact"
-  ).map((item) => (
-    <FooterItem
-      key={item.id}
-      text={item.text}
-      href={item.href}
-      icon={item.icon}
-    />
-  ));
 
-  const FooterContact = DataContact.filter(
-    (item) => item.catagory === "footer"
-  ).map((item) => (
-    <a
-      key={item.id}
-      className="footerlink"
-      target="_blank"
-      rel=" noreferrer"
-      href={item.href}
-    >
-      {" "}
-      <i id="icon" className={item.icon}></i>
-    </a>
+  //Properties
+  const filterContact = DataContact.filter(item => item.catagory === "contact" );
+//Components
+  const footerContact = filterContact.map((item) => (
+    <FooterContact key={item.id} item={item} />
+
+  ));
+  //Properties
+  const filterSocial = DataContact.filter(item => item.catagory === "social");
+  
+  //Components
+  const footerSocial = filterSocial.map((item) => (
+    <FooterSocial key={item.id} item={item} />
   ));
 
   return (
@@ -39,12 +29,12 @@ export default function Footer() {
             Here is my contact information if you are interested in interviewing
             me.
           </p>
-          <div className="footer-list">{FooterItems}</div>
+          <div className="footer-list">{footerContact}</div>
         </div>
       </div>
       <div className="focon">
-        <footer className="footerEnd">{FooterContact}</footer>
-        <p className="copyright">© 2022 • Monir</p>
+        <footer className="footer-end">{footerSocial}</footer>
+        <p className="copyright"> © 2022 • Monir</p>
       </div>
     </>
   );

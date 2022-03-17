@@ -16,14 +16,14 @@
   
   {
     "id": 3,
-    "catagory": "footer",
+    "catagory": "social",
     "href": "https://www.linkedin.com/in/md-moniruzzaman-akhand-7017024b/ ",
     "icon": "fa-brands fa-linkedin fa-2xl",
     "text": " "
   },
   {
     "id": 4,
-    "catagory": "footer",
+    "catagory": "social",
     "href": "https://github.com/Monir2022",
     "icon": "fa-brands fa-github fa-2xl",
     "text": " "

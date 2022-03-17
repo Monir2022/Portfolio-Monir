@@ -10,11 +10,16 @@
 
 .tech-container{
     display: flex;
+    overflow-x: hidden;
+    
+}
+.tech-container p {
+    
 }
 
 .tech-title{
     border-bottom: 5px solid rgb(19, 1, 1);
-    padding: 2px;
+    padding: 1px;
 }
 
 .tech-list{
@@ -22,16 +27,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2em;
+    flex-grow: 1;
+    flex-shrink:0;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
     .tech-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         justify-items: center;
         align-items: center;
-        overflow: hidden;
+        overflow-x: hidden;
 
     }
     .tech-list{

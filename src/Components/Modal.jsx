@@ -1,5 +1,3 @@
-//Project files
-
 //NPM Packages
 import ReactDom from "react-dom";
 
