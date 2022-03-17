@@ -24,10 +24,10 @@
     "title": "Package tracker",
     "description": "This is a web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
-    "isCompleted": false,
+    "isCompleted": false ,
     "photo": "package.png",
-    "github": " ",
-    "website": " "
+    "github": "",
+    "website": ""
   },
   {
     "id": 4,
