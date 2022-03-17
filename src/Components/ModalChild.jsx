@@ -12,8 +12,7 @@ export default function ModalChild({ item }) {
     <a className="demo_src" href={github}>
       Git repository  </a>
   );
-
-  
+ 
 
   return (
     <div className="modal-child">
