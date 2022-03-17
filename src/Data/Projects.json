@@ -25,9 +25,9 @@
     "description": "This is a web app that displays a list of parcels using API Endpoint with some details like order status, ETAs, pickup locations, etc. It uses:",
     "techonologies": ["Javascript", "React", "HTML", "CSS"],
     "isCompleted": false,
-    "photo": "Package.png",
-    "github": "",
-    "website": ""
+    "photo": "package.png",
+    "github": " ",
+    "website": " "
   },
   {
     "id": 4,
