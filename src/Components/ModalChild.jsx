@@ -13,6 +13,8 @@ export default function ModalChild({ item }) {
       Git repository  </a>
   );
 
+  
+
   return (
     <div className="modal-child">
       <img src={photo} alt="pict" className="modal-img" />

@@ -1,5 +1,5 @@
 //Project files
-import AboutPhoto from "../Assets/Images/monir.jpg";
+import AboutPhoto from "../assets/images/monir.jpg";
 
 
 export default function About() {

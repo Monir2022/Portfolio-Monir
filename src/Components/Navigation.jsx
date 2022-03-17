@@ -1,6 +1,6 @@
 //Project files
 
-import monirlogo from "../Assets/Images/logo.png";
+import monirlogo from "../assets/images/logo.png";
 
 export default function Navigation() {
   return (

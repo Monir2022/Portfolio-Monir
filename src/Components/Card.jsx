@@ -19,6 +19,8 @@ export default function Card({ item }) {
   ) : (
     <p>Comming Soon</p>
   );
+
+  
   return (
     <div className="container">
       <img src={photo} alt="Avatar" className="image" />
