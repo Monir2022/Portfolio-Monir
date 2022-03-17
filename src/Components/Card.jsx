@@ -19,10 +19,11 @@ export default function Card({ item }) {
   ) : (
     <p>Comming Soon</p>
   );
-console.log(title)
+  console.log(title);
   return (
     <div className="container">
       <img src={photo} alt="Avatar" className="image" />
+
       {title}
       <div className="overlay">
         <div className="text">
