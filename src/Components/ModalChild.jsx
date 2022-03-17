@@ -1,7 +1,10 @@
 export default function ModalChild({ item }) {
-  const { photo, description, github, website, techonologies, isCompleted } = item;
+  const { photo, description, github, website, techonologies, isCompleted } =
+    item;
 
-  const techList = techonologies.map((item) => <li> {item} </li>);
+  const techList = techonologies.map((index, item) => (
+    <li key={index}> {item} </li>
+  ));
 
   const websiteLink = website && (
     <a className="demo_src" href={website}>
