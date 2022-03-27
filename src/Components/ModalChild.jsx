@@ -2,10 +2,12 @@ export default function ModalChild({ item }) {
   const { photo, description, github, website, techonologies, isCompleted } =
     item;
 
-  const techList = techonologies.map((index, item) => (
-    <li key={index}> {item} </li>
+  const techList = techonologies.map((item) => (
+    <ul key={item}>
+      <li> {item} </li>
+    </ul>
   ));
-
+  
   const websiteLink = website && (
     <a className="demo_src" href={website}>
       Visit website
@@ -24,7 +26,7 @@ export default function ModalChild({ item }) {
       <div className="discriptions">
         <p>{description}</p>
         <h5>Technology used for this project</h5>
-        <ul>{techList}</ul>
+        {techList}
         {websiteLink}
         {githubLink}
         {!isCompleted && <p>Comming Soon</p>}
