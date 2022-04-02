@@ -1,5 +1,4 @@
 //Project files
-
 import monirlogo from "../assets/images/logo.png";
 
 export default function Navigation() {

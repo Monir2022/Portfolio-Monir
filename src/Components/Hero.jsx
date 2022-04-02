@@ -1,5 +1,3 @@
-//Project files
-
 
 export default function Hero() {
   return (

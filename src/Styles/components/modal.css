@@ -63,6 +63,6 @@
 .modalContainer.show .modal {
     transform: translateY(0);
 }
-.discriptions {
+.project-details {
     margin-left: 1rem;
 }
