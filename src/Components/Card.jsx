@@ -1,7 +1,8 @@
-//Project files
-import Modal from "./Modal";
 //NPM packages
 import { useState } from "react";
+
+//Project files
+import Modal from "./Modal";
 import ModalChild from "./ModalChild";
 
 export default function Card({ item }) {
@@ -23,7 +24,6 @@ export default function Card({ item }) {
   return (
     <div className="container">
       <img src={photo} alt="Avatar" className="image" />
-
       {title}
       <div className="overlay">
         <div className="text">
