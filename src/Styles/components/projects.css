@@ -6,6 +6,7 @@
     flex-wrap:wrap;
     margin-right: 12%;
     margin-left: 12%;
+    overflow-x: hidden;
 }
 .project-flex{
     display:flex;

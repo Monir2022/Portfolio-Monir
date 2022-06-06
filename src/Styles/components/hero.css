@@ -8,6 +8,7 @@
   align-items: center;
   width: 100%; 
   background-image: url("assets/images/hero-back.jpg");
+  overflow-x: hidden;
   
 }
 

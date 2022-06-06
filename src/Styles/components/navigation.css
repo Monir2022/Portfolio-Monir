@@ -6,7 +6,7 @@ nav {
     display: flex;
     z-index: 100;
     top: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .navigation ul {    
     list-style: none;

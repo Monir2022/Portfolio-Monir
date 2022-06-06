@@ -15,6 +15,7 @@
 }
 .modalContainer .modal {
     background-color: rgba(247, 245, 238, 0.685);
+    font-family:"Roboto" ;
     width: calc(15rem + 15vw);
     height: auto;
     padding: 2rem;
